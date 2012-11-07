@@ -7,3 +7,5 @@
 - rework documentation
 - cleanup code
 - catalog policy: how to deal with large features with many Then steps
+- ruby 1.9 support
+- puppet 3.0 support
