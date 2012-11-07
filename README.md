@@ -1,8 +1,5 @@
 # cucumber-puppet
 
-*The project is discontinued. I won't add support for ruby 1.9 or any puppet
-version beyond 2.7.*
-
 Cucumber-puppet is a tool for specifying Puppet catalog behavior. It uses
 Cucumber features as specifications and provides the necessary glue to access a
 node's catalog from Cucumber's step definitions.
@@ -36,14 +33,15 @@ Apply your policy
     $ cucumber-puppet features/catalog/policy.feature
 
 An example use case can be found at
-https://github.com/nistude/cucumber-puppet.example.
+https://github.com/kronn/cucumber-puppet.example.
 
 Further documentation is available in the
 [wiki](http://projects.puppetlabs.com/projects/cucumber-puppet/wiki/).
 
 # Acknowledgements
 
-Many thanks to [Bernd Ahlers](http://www.ba-net.org/) for getting me started
+Original work was done by [Nikolay Sturm](http://nistu.de)
+He sent thanks to [Bernd Ahlers](http://www.ba-net.org/) for getting him started
 with cucumber, rspec and ruby.
 
 cucumber-puppet was inspired by
