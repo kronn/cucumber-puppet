@@ -84,9 +84,12 @@ task :testsuite do
 end
 
 desc "run all tests"
-task :tests => [:spec, :cucumber, :testsuite, :puppet_version]
+task :tests => [:spec, :cucumber, :testsuite]
+# task :tests => [:spec, :cucumber, :testsuite, :puppet_version]
 
 desc "uninstall gem"
 task :uninstall do
   sh("gem uninstall -x cucumber-puppet")
 end
+
+task :default => :tests
